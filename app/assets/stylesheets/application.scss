@@ -1,0 +1,43 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+
+@import "bootstrap";
+
+.navbar {
+  background-color: #9c27b0 !important;
+ // color :white; 
+}
+ 
+.carousel-inner{
+  height: 400px;
+}
+
+.carousel-item img{
+  height: 400px;
+}
+
+.btn {
+  background-color: #9c27b0 !important;
+  color :white; 
+}
+
+.navbar-brand{
+  color : white;
+}
+
+.h1{
+  font-weight: bold;
+  // color: greenyellow;
+}
+
+.lien:link, .lien:visited {
+  background-color: #9c27b0;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+    
+.lien:hover, .lien:active {
+  background-color: hotpink;
+}
